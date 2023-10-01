@@ -1,12 +1,16 @@
 # Reto número 5 repo
 ### Fecha:  27-09-2023
-### Link notebook: [https://colab.research.google.com/drive/1Pi8c02YPXBmrL5JBlRjQ2iLkWFhbr-iX?usp=sharing](https://colab.research.google.com/drive/1ksy4G5S3UBrs5hk11EyObZtPcBD_9bEK?usp=sharing)
+### Link notebook: https://colab.research.google.com/drive/1ksy4G5S3UBrs5hk11EyObZtPcBD_9bEK?usp=sharing
 
 **1.** Dado la figura de la imagen, desarrolle:
-- Una función matemática para calcular el volumen y el área superficial.
-- Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h.
-- Revise como utilizar el valor de pi usando import math y math.pi
-* 
+
+Una función matemática para calcular el volumen y el área superficial.
+
+Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h.
+
+Revise como utilizar el valor de pi usando import math y math.pi
+
+* EXPLICACIÓN
 * Mirar archivo Punto_1.py
 ```pseudocode
 import math as m
@@ -47,10 +51,14 @@ if __name__ == "__main__":
   print("El valor de radio del cono y su altura es " + str(r2yhcal))
 ```
 **2.** Dado la figura de la imagen, desarrolle:
-- Una función matemática para calcular el área y el perimetro.
-- Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, a y b.
-- Revise como utilizar el valor de pi usando import math y math.pi
-* 
+
+Una función matemática para calcular el área y el perimetro.
+
+Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, a y b.
+
+Revise como utilizar el valor de pi usando import math y math.pi
+
+*EXPLICACIÓN
 * Mirar archivo Punto_2.py
 ```pseudocode
 import math as m
@@ -91,7 +99,7 @@ if __name__ == "__main__":
   print("El valor de radio del cono y su altura es " + str(AyBcal))
 ```
 **3.** Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
-* 
+* EXPLICACIÓN
 * Mirar archivo Punto_3.py
 ```pseudocode
 def CalcularCantidadCarne(N:float, M:float, K:float) -> float:
@@ -107,7 +115,7 @@ if __name__ == "__main__":
   print("La cantidad de carne de aves en kilos es " + str(carne_total))
 ```
 **4.** Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
-* 
+* EXPLICACIÓN
 * Mirar archivo Punto_4.py
 ```pseudocode
 def CalcularVueltas(P:int, M:int, H:int, B:int) -> int:
@@ -130,7 +138,7 @@ if __name__ == "__main__":
     print("No hay vueltas " + str(vueltas_t))
 ```
 **5.** Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
-* 
+* EXPLICACIÓN
 * Mirar archivo Punto_5.py
 ```pseudocode
 def CalcularPrestamo(c:float, i:float, n:float) -> float:
@@ -147,7 +155,7 @@ if __name__ == "__main__":
   print("El interes compuesto es " + str(total_f))
 ```
 **6.** El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pasen D días a partir de hoy, si el número de contagiados actuales es C.
-* 
+* EXPLICACIÓN
 * Mirar archivo Punto_6.py
 ```pseudocode
 def CalcularContagiados(D:int, C:int) -> int:
@@ -162,14 +170,22 @@ if __name__ == "__main__":
   print("El total de contagiados en NuncaLandia es " + str(total_c))
 ```
 **7.** Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
-- El promedio
-- La mediana
-- El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
-- Ordenar los números de forma ascendente
-- Ordenar los números de forma descendente
-- La potencia del mayor número elevado al menor número
-- La raíz cúbica del menor número
-* 
+
+El promedio
+
+La mediana
+
+El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
+
+Ordenar los números de forma ascendente
+
+Ordenar los números de forma descendente
+
+La potencia del mayor número elevado al menor número
+
+La raíz cúbica del menor número
+
+* EXPLICACIÓN
 * Mirar archivo Punto_7.py
 ```pseudocode
 def CalcularPromedio(a:float, b: float, c:float, d:float, e:float) -> float:
@@ -375,12 +391,20 @@ if __name__ == "__main__":
   print("La raíz cúbica de menor número es " + str(raizc_f))
 ```
 **8.** Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
-* 
+* EXPLICACIÓN
 * Mirar archivo Punto_8.py
 ```pseudocode
 
 ```
 **9.** Consultar qué es y cómo funciona pip en python.
-* 
+* "PIP" es el acrónimo de «Pip Installs Packages» y es una herramienta muy útil para instalar, actualizar, eliminar y buscar paquetes de Python. Es decir, es el instalador y administrador de paquetes de Python. Se usa para descargar una librería que no teníamos antes o para actualizar la librería a una nueva versión. Este comando se utiliza desde la terminal o la consola. Funciona escribiendo: "pip <comando> <operación>", en <comando> se pueden escribir comandos como: install, download, uninstall, list dependiendo de la acción que se quiera realizar.
+
+Fuente:
+- [https://es.linkedin.com/learning/python-esencial-15349768/instalacion-de-paquetes-con-pip#:~:text=pip%20es%20el%20instalador%20y,desde%20la%20shell%20de%20Python.](https://docs.python.org/es/3.11/installing/index.html)
+- https://geekland.eu/como-instalar-y-usar-el-gestor-de-paquetes-pip/#:~:text=Pip%20es%20un%20gestor%20de%20paquetes%20utilizado%20para%20instalar%20y,y%20buscar%20paquetes%20de%20Python.
+
 **10.** Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
 * 
+
+
+
