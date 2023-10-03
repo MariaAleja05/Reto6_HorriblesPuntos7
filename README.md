@@ -1,4 +1,4 @@
-# Reto número 5 repo
+# Reto número 6 repo
 ### Fecha:  27-09-2023
 **1.** Dado la figura de la imagen, desarrolle:
 
