@@ -8,7 +8,7 @@ Cree dos funciones en python para calcular los valores antes establecidos, al in
 
 Revise como utilizar el valor de pi usando import math y math.pi
 
-* EXPLICACIÓN
+* Importe de la librería math la función de pi para realizar los cálculos. En la primera función establecí el volumen, en la segunda el area superficial, en la tercera el procedimiento para devolverme y encontrar los valores ingresados del radio, y en la cuarta el procedimiento para encontrar el radio y la altura ingresada. En la función main se solicita ingresar los valores y se ejecutan las funciones.
 * Mirar archivo Punto_1.py
 ```pseudocode
 import math as m
@@ -56,7 +56,7 @@ Cree dos funciones en python para calcular los valores antes establecidos, al in
 
 Revise como utilizar el valor de pi usando import math y math.pi
 
-*EXPLICACIÓN
+* Importe de la librería math la función de pi para realizar los cálculos. En la primera función establecí la formula para el area, en la segunda el perimetro, en la tercera el procedimiento para devolverme y encontrar el valor ingresado del radio, y en la cuarta el procedimiento para encontrar la altura y la base ingresada. En la función main se solicita ingresar los valores y se ejecutan las funciones.
 * Mirar archivo Punto_2.py
 ```pseudocode
 import math as m
@@ -97,7 +97,7 @@ if __name__ == "__main__":
   print("El valor de radio del cono y su altura es " + str(AyBcal))
 ```
 **3.** Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
-* EXPLICACIÓN
+* En la primera función establecí la ecuación para calcular la cantidad de carne teniendo en cuenta los datos del problema. En la función main se solicita ingresar los valores de base y se ejecutan las funciones.
 * Mirar archivo Punto_3.py
 ```pseudocode
 def CalcularCantidadCarne(N:float, M:float, K:float) -> float:
@@ -113,7 +113,7 @@ if __name__ == "__main__":
   print("La cantidad de carne de aves en kilos es " + str(carne_total))
 ```
 **4.** Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
-* EXPLICACIÓN
+* En la primera función establecí la ecuación para calcular las vueltas te teniendo en cuenta los datos del problema. En la función main se solicita ingresar los valores de base, se ejecutan las funciones, y hay un condicional que muestra si hay vueltas o no, y si quedó debiendo dinero.
 * Mirar archivo Punto_4.py
 ```pseudocode
 def CalcularVueltas(P:int, M:int, H:int, B:int) -> int:
@@ -136,7 +136,7 @@ if __name__ == "__main__":
     print("No hay vueltas " + str(vueltas_t))
 ```
 **5.** Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
-* EXPLICACIÓN
+* En la primera función establecí la ecuación para calcular el prestamo con interés compuesto teniendo en cuenta los datos del problema. En la función main se solicita ingresar los valores de base y se ejecutan las funciones.
 * Mirar archivo Punto_5.py
 ```pseudocode
 def CalcularPrestamo(c:float, i:float, n:float) -> float:
@@ -153,7 +153,7 @@ if __name__ == "__main__":
   print("El interes compuesto es " + str(total_f))
 ```
 **6.** El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pasen D días a partir de hoy, si el número de contagiados actuales es C.
-* EXPLICACIÓN
+* En la primera función establecí la ecuación para calcular los contagiados teniendo en cuenta los datos del problema. En la función main se solicita ingresar los valores de base y se ejecutan las funciones.
 * Mirar archivo Punto_6.py
 ```pseudocode
 def CalcularContagiados(D:int, C:int) -> int:
@@ -183,7 +183,7 @@ La potencia del mayor número elevado al menor número
 
 La raíz cúbica del menor número
 
-* EXPLICACIÓN
+* En la primera función establecí la ecuación para hallar el promedio, en la segunda la mediana, en la tercera el promedio multiplicativo, y en la cuarta el procedimiento para ordenar los números de manera ascendente, en la quinta en orden descendente, en la sexta la potencia del numero mayor eleveado al numero menor, y la septima para hallar la raiz cubica del menor número. En la función main se solicita ingresar los valores y se ejecutan las funciones. (para mayor explicación mirar el repo: taller #1)
 * Mirar archivo Punto_7.py
 ```pseudocode
 def CalcularPromedio(a:float, b: float, c:float, d:float, e:float) -> float:
@@ -389,7 +389,7 @@ if __name__ == "__main__":
   print("La raíz cúbica de menor número es " + str(raizc_f))
 ```
 **8.** Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
-* EXPLICACIÓN
+* Para este punto primero creé un archivo en mi cpu dondé estaban solo las funciónes del punto 7 y lo añadí directamente como archivo en el que estaba haciendo para este punto. Luego haciendo uso de import, importé todas las funciones de este archivo para usarlas. En la función main se solicita ingresar los valores y se ejecutan las funciones.
 * Mirar archivo Punto_8.py
 ```pseudocode
 from funciones_punto_7 import CalcularPromedio
@@ -436,7 +436,15 @@ Fuente:
 - https://geekland.eu/como-instalar-y-usar-el-gestor-de-paquetes-pip/#:~:text=Pip%20es%20un%20gestor%20de%20paquetes%20utilizado%20para%20instalar%20y,y%20buscar%20paquetes%20de%20Python.
 
 **10.** Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
-* 
-
-
-
+| # | Módulo | Instalación | Uso |
+|---|--------|-------------|-----|
+| 1 |  NumPy | *pip install numpy* | Es una biblioteca para la programación numérica en Python. |
+| 2 |  Pandas | *pip install pandas* | Es una biblioteca de análisis de datos que proporciona estructuras de datos y herramientas de análisis. |
+| 3 |  Matplotlib | *pip install matplotlib* | Es una biblioteca para crear gráficos y visualizaciones en Python. |
+| 4 |  Requests | *pip install requests* | Es una biblioteca HTTP que permite realizar solicitudes HTTP en Python de manera sencilla. |
+| 5 |  Scikit-Learn | *pip install scikit-learn* | Es una biblioteca de aprendizaje automático (machine learning) que proporciona herramientas para la clasificación, regresión, clustering, etc. |
+| 6 |  Django | *pip install Django* | Es un framework web de alto nivel que facilita la creación de aplicaciones web robustas y escalables en Python. |
+| 7 |  Flask | *pip install Flask* | Es un microframework web que es simple y fácil de usar para construir aplicaciones web en Python. |
+| 8 |  Beautiful Soup | *pip install beautifulsoup4* | Es una biblioteca para extraer datos de páginas web y analizar documentos HTML y XML. |
+| 9 |  TensorFlow | *pip install tensorflow* | Es una biblioteca de código abierto para machine learning y deep learning desarrollada por Google. |
+| 10 |  PyTorch | *pip install torch* | Es otra biblioteca de machine learning y deep learning, desarrollada por Facebook's AI Research lab. |
