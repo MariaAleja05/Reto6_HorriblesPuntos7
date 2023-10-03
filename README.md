@@ -1,7 +1,5 @@
 # Reto número 5 repo
 ### Fecha:  27-09-2023
-### Link notebook: https://colab.research.google.com/drive/1ksy4G5S3UBrs5hk11EyObZtPcBD_9bEK?usp=sharing
-
 **1.** Dado la figura de la imagen, desarrolle:
 
 Una función matemática para calcular el volumen y el área superficial.
@@ -394,7 +392,41 @@ if __name__ == "__main__":
 * EXPLICACIÓN
 * Mirar archivo Punto_8.py
 ```pseudocode
+from funciones_punto_7 import CalcularPromedio
+from funciones_punto_7 import CalcularMediana
+from funciones_punto_7 import CalcularPromedioMultiplicativo
+from funciones_punto_7 import OrdenarAscendente
+from funciones_punto_7 import OrdenarDescendente
+from funciones_punto_7 import CalcularPoteniaMayor
+from funciones_punto_7 import CalcularRaizCubica
 
+if __name__ == "__main__":
+  a = float(input("Ingrese el primer numero:"))
+  b = float(input("Ingrese el segundo numero:"))
+  c = float(input("Ingrese el tercer numero:"))
+  d = float(input("Ingrese el cuarto numero:"))
+  e = float(input("Ingrese el quinto numero:"))
+  promedio_f = CalcularPromedio(a, b, c, d, e)
+  mediana_f = CalcularMediana(a, b, c, d, e)
+  promediomultiplicativo_f = CalcularPromedioMultiplicativo(a, b, c, d, e)
+  ascendente_f = OrdenarAscendente(a, b, c, d, e)
+  descendente_f = OrdenarDescendente(a, b, c, d, e)
+  potencia_f = CalcularPoteniaMayor(a, b, c, d, e)
+  raizc_f = CalcularRaizCubica(a, b, c, d, e)
+  print("----------------------------------------------------------------")
+  print("El promedio es " + str(promedio_f))
+  print("----------------------------------------------------------------")
+  print("La mediana es " + str(mediana_f))
+  print("----------------------------------------------------------------")
+  print("El promedio multiplicativo es " + str(promediomultiplicativo_f))
+  print("----------------------------------------------------------------")
+  print("El orden ascencente es " + str(ascendente_f))
+  print("----------------------------------------------------------------")
+  print("El orden descedente es " + str(descendente_f))
+  print("----------------------------------------------------------------")
+  print("La potencia del mayor número elevado al menor número es " + str(potencia_f))
+  print("----------------------------------------------------------------")
+  print("La raíz cúbica de menor número es " + str(raizc_f))
 ```
 **9.** Consultar qué es y cómo funciona pip en python.
 * "PIP" es el acrónimo de «Pip Installs Packages» y es una herramienta muy útil para instalar, actualizar, eliminar y buscar paquetes de Python. Es decir, es el instalador y administrador de paquetes de Python. Se usa para descargar una librería que no teníamos antes o para actualizar la librería a una nueva versión. Este comando se utiliza desde la terminal o la consola. Funciona escribiendo: "pip <comando> <operación>", en <comando> se pueden escribir comandos como: install, download, uninstall, list dependiendo de la acción que se quiera realizar.
